@@ -10,5 +10,4 @@ const tail = function(arr) {
   return arr.filter((elem, index) => index !== 0);
 };
 
-assertEqual(tail([5,6,7]), 5);
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
+module.exports = tail;
